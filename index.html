@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M10Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng
+                            <!-- Header QR Code -->
+                            <div class="header__qr">
+                                <img class="header__qr-img" src="./assets/img/ma QR.png" alt="QR Code">
+                                <div class="header__qr-apps">
+                                    <a href="https://play.google.com/store" class="header__qr-link">
+                                        <img class="header__qr-dowload-img" src="./assets/img/google play.png" alt=" Google Play">
+                                    </a>
+                                    <a href="https://www.apple.com/ios/app-store/" class="header__qr-link">
+                                        <img class="header__qr-dowload-img" src="./assets/img/app store.png" alt="Apple Store">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer"> 
+                                Kết nối
+                            </span>
+                            <a href="https://www.facebook.com/tuong404/" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i> Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông Báo Mới Nhận </h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="#" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/4f078878489a286369472d3dc247d2ba_tn" alt="nuoc hoa" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Nước Hoa Cao Cấp </span>
+                                                <span class="header__notify-descriotion">
+                                                        Mô Tả Nước Hoa Cao Cấp  
+                                                    </span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="#" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/e7ad727dafaa853fcb9b1a3a84ec3b59" alt="dien thoai" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Điện Thoại Samsung Galaxy A20s (32GB/3GB) - Hàng Chính Hãng </span>
+                                                <span class="header__notify-descriotion">
+                                                        Mô Tả Điện Thoại Samsung Galaxy A20s (32GB/3GB) - Hàng Chính Hãng
+                                                    </span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="#" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/d25b2abf6dc8e6281536cdaf9d896768_tn" alt="nuoc hoa" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">(New Arrival) Đồng Hồ Điện Tử Thể Thao Nam Chính Hãng SMAEL 1545C Phiên Bản Sport Chống Nước Cực Tốt </span>
+                                                <span class="header__notify-descriotion">
+                                                        Mô Tả (New Arrival) Đồng Hồ Điện Tử Thể Thao Nam Chính Hãng SMAEL 1545C Phiên Bản Sport Chống Nước Cực Tốt
+                                                    </span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">
+                                        Xem Tất Cả
+                                    </a>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i> Trợ giúp</a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/61889759_486662318739788_619253173625815040_o.jpg" alt="user avater" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Văn Tưởng</span>
+
+                            <ul class="header__navbar-user-list">
+                                <li class="header__navbar-user-item">
+                                    <a href="#">
+                                         Tài khoản của tôi  
+                                        </a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#"> 
+                                            Địa chỉ của tôi
+                                        </a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="#">
+                                         Đơn mua 
+                                        </a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--logout header__navbar-user-item--separate  ">
+                                    <a href="#">
+                                            Đăng xuất  
+                                        </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <label for="mobile-bars-checkbox" class="header__mobile-bars">
+                        <i class="header__mobile-bars-icon fas fa-bars"></i>
+                    </label>
+
+                    <input type="checkbox" hidden class="header__input" id="mobile-bars-checkbox">
+
+                    <label for="mobile-bars-checkbox" class="header__overlay">
+                    </label>
+                    <div class="header__category">
+                        <ul class="header__category-list">
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">
+                                    Tài khoản
+                                </a>
+                            </li>
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">
+                                    Đăng nhập
+                                </a>
+                            </li>
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">
+                                    Đăng kí
+                                </a>
+                            </li>
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">
+                                    Cài đặt
+                                </a>
+                            </li>
+                            <li class="header__category-item">
+                                <a href="#" class="header__category-link">
+                                    Đăng xuất
+                                </a>
+                            </li>
+                        </ul>
+                        <label for="mobile-bars-checkbox" class="header__category-close">
+                            <i class="header__category-close-icon fas fa-times"></i>
+                        </label>
+                    </div>
+
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
+                    <div class="header__logo hide-on-tablet">
+                        <a class="header__logo-link" href="/">
+                            <img class="header__logo-img" src="./assets/img/cropped-logo--192x192.png" alt="">
+                            <span> M10</span>
+                        </a>
+                    </div>
+                    <input class="header__search-checkbox" id="mobile-search-checkbox" type="checkbox" hidden>
+                    <div class="header__search ">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm ">
+
+                            <!-- Search History  -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">
+                                    Lịch sử tìm kiếm
+                                </h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">
+                                            Điện thoại Iphone Pro 11 Max
+                                        </a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">
+                                            Đồng hồ G-sock GA120
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong Shop</span>
+                            <i class="header__search-select-icon fas fa-chevron-down"></i>
+
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+
+                    </div>
+                    <!-- Card layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">
+                                8
+                            </span>
+                            <!-- No Cart : header__cart-list--no-cart -->
+                            <div class="header__cart-list ">
+                                <img src="./assets/img/mascot.png" alt="img" class="header__cart-list--no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Không có sản phẩm nào trong giỏ hàng của bạn.
+                                </span>
+
+                                <h4 class="header__cart-heading">
+                                    Sản phẩm đã thêm
+                                </h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart item -->
+
+
+
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/28c7cd1f3878637666d71e973af55cb1" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Tay cầm chơi game Logitech F310 Tay
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        409.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/7bc3725e142eb88916abf080a0abb902" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Chuột game thủ Logitech G300S
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        350.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/4b5a54c16c80748beedf9622e5f58675" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Điện thoại Samsung A51
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        7.190.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        2
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/28c7cd1f3878637666d71e973af55cb1" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Tay cầm chơi game Logitech F310
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        409.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/7bc3725e142eb88916abf080a0abb902" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Chuột game thủ Logitech G300S
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        350.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/4b5a54c16c80748beedf9622e5f58675" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Điện thoại Samsung A51
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        7.190.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        2
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/28c7cd1f3878637666d71e973af55cb1" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Tay cầm chơi game Logitech F310
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        409.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/7bc3725e142eb88916abf080a0abb902" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Chuột game thủ Logitech G300S
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        350.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        1
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/4b5a54c16c80748beedf9622e5f58675" alt="Tay cam" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Điện thoại Samsung A51
+                                                </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">
+                                                        7.190.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-multiply">
+                                                        x
+                                                    </span>
+                                                    <span class="header__cart-item-qnt">
+                                                        2
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại : Đen
+                                                </span>
+                                                <span class="header__cart-item-remove">
+                                                    Xóa
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <a href="#" class="header__cart-view-cart btn btn-primary">
+                                        Xem giỏ hàng
+                                    </a>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Liên quan
+                    </a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link header__sort-link--active ">
+                        Mới nhất
+                    </a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Bán chạy
+                    </a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">
+                        Giá
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+
+
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="catogery">
+                            <h3 class="catogery__heading">
+                                <i class="catogery__heading-icon fas fa-list"></i> Danh Mục
+                            </h3>
+
+                            <ul class="catogery-list">
+                                <li class="catogery__item cartogery__item--active">
+                                    <a href="#" class="catogery__item-link">Điện thoại </a>
+                                </li>
+                                <li class="catogery__item">
+                                    <a href="#" class="catogery__item-link">Máy tính bảng </a>
+                                </li>
+                                <li class="catogery__item">
+                                    <a href="#" class="catogery__item-link">LapTop </a>
+                                </li>
+                                <li class="catogery__item">
+                                    <a href="#" class="catogery__item-link">Phụ kiện điện tử  </a>
+                                </li>
+
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__label">
+                                Sắp xếp theo
+                            </span>
+                            <button class="home-filter-btn btn">Phổ Biến</button>
+                            <button class="home-filter-btn btn btn-primary">Mới Nhất</button>
+                            <button class="home-filter-btn btn">Bán Chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">
+                                    Giá
+                                </span>
+                                <i class="select-input__icon fas fa-chevron-down"></i>
+                                <!-- List option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1 </span>/14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="#" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fas fa-chevron-left"></i>
+                                    </a>
+                                    <a href="#" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Ốp Iphone</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Pin, Cáp & Bộ sạc</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Ốp Samsung</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Miếng dán màn hình</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Giá đỡ & kẹp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Pin Sạc dự phòng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Ốp oppo</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Bao da Iphone</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- Product item -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/a92b5bc6d35d57c7cd0d034d956b96ef_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            (Rẻ vô địch) Bộ phát wifi 4g ZTE WD670 Tốc độ 150mbps
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">790.000đ</span>
+                                            <span class="home-product-item__price-current">590.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">50 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Hàn Quốc
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">
+                                                GIẢM
+                                            </span>
+
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/1bf7d56f9cf2c3463087581281259a8d_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            CHUỘT MÁY TÍNH FUHLEN L102
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-current">110.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">70 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Quảng Nam
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/38412fc43154d5b7b6a060f4a3b64fa1_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            Laptop cũ Dell Latitude E7440 intel i5 4300U Ram 4G SSD 128G VGA HD Graphics 4400 Màn 14 inch
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-current">7.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">50 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Hà Nội
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">
+                                                GIẢM
+                                            </span>
+
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/4bdd272a425a7e159cbe4277face05d9_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            Loa vi tính
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-current">150.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">50 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Quảng Nam
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/84c32709d501897451f232ba41431055_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            Màn hình chơi game BJX V24M9 24 INCH 75HZ
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-current">2.690.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">50 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                               Tp.Hồ Chí Minh
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">
+                                                GIẢM
+                                            </span>
+
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/e6b97a8bbfa839fad745383c40b47d08_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            Máy bán hàng cảm ứng POS Machine Z9500 SSD 64G
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">10.090.000đ</span>
+                                            <span class="home-product-item__price-current">9.590.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">50 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                               Hà Nội
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">
+                                                GIẢM
+                                            </span>
+
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/66fba336fc8b959d54ac383c24d9ee7f_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            Macbook Air 13 inch Core I5/4GB/128GB SSD tặng Chuột Apple
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-current">11.550.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">100 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Tp.Hồ Chí Minh
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/c512618b24b8240fad117b896852e06a_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            Laptop FUJITSU CORE I3 RAM 4GB siêu mượt, cực bền</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.790.000đ</span>
+                                            <span class="home-product-item__price-current">3.590.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">30 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                                Hàn Quốc
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                25%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">
+                                                GIẢM
+                                            </span>
+
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/cd929e22e65e97362718c7c97fbfcec9_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            Điện thoại nokia x6 likenew cpu 8 nhân 6gb bộ nhớ 64gb 2 sim
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-current">2.590.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">20 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                               Hải Phòng
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item " href="#">
+                                        <div class="home-product-item__img " style="background-image:url(https://cf.shopee.vn/file/829245ce955e170fc10932d4d3b17972_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">
+                                            Điện thoại iphone 6
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-current">1.990.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">  
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class="home-product-item--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </span>
+                                            <span class="home-product-item__sold">150 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item-brand">
+                                                Wi-pod
+                                            </span>
+                                            <span class="home-product-item__origin-name">
+                                              Hà Nội
+
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích  </span>
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">
+                                                10%
+                                            </span>
+                                            <span class="home-product-item__sale-off-label">
+                                                GIẢM
+                                            </span>
+
+
+                                        </div>
+
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="#" class="pagination-item__link ">
+                                    1
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    2
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    3
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    4
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    5
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--etc ">
+                                <a href="#" class="pagination-item__link ">
+                                    ...
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    14
+                                </a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading"> Chăm sóc khách hàng </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">Gmail</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading"> Giới thiệu </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">Giới thiệu</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">Tuyển dụng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading"> Danh muc </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Điện thoại
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Máy tính bảng
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="#">
+                                    Laptop
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading"> Theo dõi </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link" href="https://www.facebook.com/tuong404/">
+                                    <i class="fab fa-facebook footer__list-item-link-icon"></i> Facebook
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link " href="#">
+                                    <i class="fab fa-instagram footer__list-item-link-icon"></i> Instagram
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-item-link " href="#">
+                                    <i class="fab fa-linkedin footer__list-item-link-icon"></i> Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading"> Vào cửa hàng trên ứng dụng </h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/ma QR.png" alt="ma_qr">
+                            <div class="footer__download-apps">
+                                <a href="#" class="footer__download-apps__link">
+                                    <img src="./assets/img/google play.png " alt="Google play" class="footer__download-apps__img">
+                                </a>
+
+                                <a href="#" class="footer__download-apps__link">
+                                    <img src="./assets/img/app store.png " alt=" App store" class="footer__download-apps__img">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text ">
+                        © 2020 - TuongKa
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- MODAL Layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay">
+        </div>
+        <div class="modal__body">
+            <div class="modal__inner"> -->
+    <!-- Form login / Form register -->
+
+    <!-- Register form -->
+    <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">
+                                Đăng Ký
+                            </h3>
+                            <span class="auth-form__switch-btn">
+                                Đăng Nhập
+                            </span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập Email Của Bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập Mật Khẩu ">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập Lại Mật Khẩu ">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với F8-Shop về
+                                <a class="auth-form__text-link" href="#"> Điều khoản dịch vụ</a> &
+                                <a class="auth-form__text-link" href="#"> Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls--back">TRỞ LẠI</button>
+                            <button class="btn btn-primary">ĐĂNG KÍ</button>
+                        </div>
+
+                    </div>
+                    <div class="auth-form__socials">
+                        <a href="" class="btn auth-form__socials--facebook btn--size-s btn--switch-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+
+                            <span class="auth-form__socials-title">
+                                    Kết nối với Facebook
+                            </span>
+                        </a>
+                        <a href="" class=" btn auth-form__socials--google btn--size-s btn--switch-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-title">
+                                Kết nối với Google
+                            </span>
+                        </a>
+                    </div>
+
+                </div> -->
+    <!-- Login form -->
+
+    <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">
+                                Đăng Nhập
+                            </h3>
+                            <span class="auth-form__switch-btn">
+                                Đăng Ký
+                            </span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email/Số Điện Thoại/Tên Đăng Nhập">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật Khẩu ">
+                            </div>
+
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="#" class="auth-form__help-link auth-form__help-forgot">
+                                Quên mật khẩu
+                                </a>
+                                <span class="auth-form-separate"></span>
+                                <a href="#" class="auth-form__help-link">
+                                    Cần trợ giúp?
+                                </a>
+                            </div>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls--back">TRỞ LẠI</button>
+                            <button class="btn btn-primary">ĐĂNG NHẬP</button>
+                        </div>
+
+                    </div>
+                    <div class="auth-form__socials">
+
+                        <a href="" class="btn auth-form__socials--sms ">
+                            <i class=" auth-form__socials-icon far fa-comment-dots"></i>
+
+                            <span class="auth-form__socials-title">
+                                    SMS
+                            </span>
+                        </a>
+                        <a href="" class="btn auth-form__socials--facebook btn--size-s btn--switch-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+
+                            <span class="auth-form__socials-title">
+                                    Facebook
+                            </span>
+                        </a>
+                        <a href="" class=" btn auth-form__socials--google btn--size-s btn--switch-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            <span class="auth-form__socials-title">
+                                 Google
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div> -->
+
+</body>
+
+</html>
